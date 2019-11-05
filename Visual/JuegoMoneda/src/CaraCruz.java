@@ -17,14 +17,15 @@ public class CaraCruz {
     private JTextField textField6;
     private JLabel Label_img;
 
-    int numeroDeTiradas;
-    int numCaras = 0;
-    int porcentajeCaras;
-    int numCruz = 0;
-    int porcentajeCruz;
-    int caraYCruz;
-    Random r = new Random();
+    private int numeroDeTiradas;
+    private int numCaras = 0;
+    private int porcentajeCaras;
+    private int numCruz = 0;
+    private int porcentajeCruz;
+    private int caraYCruz;
     private int contador = 0;
+    Random r = new Random();
+
 
 
     public void FlipCoin(){

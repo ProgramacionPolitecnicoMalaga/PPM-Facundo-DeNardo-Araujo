@@ -41,5 +41,25 @@ public class TrabajandoConArrayList {
         array.removeIf(elemento -> predicado(elemento)); //(elemento.getvALOR()< 100
 
         System.out.println(array);
+
+        System.out.println("---------------------------------------------------");
+
+        ClaseDePrueba elementoBuscado = new ClaseDePrueba(100,"-e100-");
+        Iterator<ClaseDePrueba> iterator = array.iterator();
+        int i = 0;
+        while (iterator.hasNext()){
+            i++;
+            if (elementoBuscado.equals(iterator.next()))
+                System.out.println(i);
+        }
+        miComparador micomparador = new miComparador();
+        array.sort(micomparador);
+        System.out.println(array);
+        array.sort( new ComparadorAlfabetico());
+        System.out.println(array);
+        array.sort((a,b) -> a.compareTo(b));
+
+
+
     }
 }

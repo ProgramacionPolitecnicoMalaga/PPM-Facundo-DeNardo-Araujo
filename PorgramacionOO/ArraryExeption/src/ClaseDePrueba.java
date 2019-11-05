@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-public class ClaseDePrueba {
+public class ClaseDePrueba implements Comparable{
     private int valor;
     private String cadena;
 
@@ -13,8 +13,6 @@ public class ClaseDePrueba {
     public boolean equals(Object o) {
         return ((ClaseDePrueba) o ).getCadena().equals(cadena);
     }
-
-
 
     @Override
     public String toString() {
@@ -39,4 +37,12 @@ public class ClaseDePrueba {
     public void setCadena(String cadena) {
         this.cadena = cadena;
     }
+
+    @Override
+    public int compareTo(ClaseDePrueba claseDePrueba) {
+        if (valor > claseDePrueba.getValor()) return 1;
+        else if (valor == claseDePrueba.getValor()) return 0;
+        else return -1;
+    }
+
 }

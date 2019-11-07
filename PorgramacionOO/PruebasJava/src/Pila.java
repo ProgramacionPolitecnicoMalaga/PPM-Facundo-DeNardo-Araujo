@@ -1,4 +1,4 @@
-public class pila {
+public class Pila {
     int arrayPila[];
     int recorer;
     int otravariable;
@@ -6,7 +6,7 @@ public class pila {
     int n = 0;
     int contador;
 
-    public pila(){
+    public Pila(){
         arrayPila = new int[LONGITUD_MAXIMA];
     }
 

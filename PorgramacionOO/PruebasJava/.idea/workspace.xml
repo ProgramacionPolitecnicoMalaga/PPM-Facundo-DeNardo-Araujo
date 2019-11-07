@@ -1,7 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf7d6381-ac8a-41b5-bd98-7cb917fdca07" name="Default Changelist" comment="" />
+    <list default="true" id="bf7d6381-ac8a-41b5-bd98-7cb917fdca07" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/codestream.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad10/Publicaciones.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad12/Vehiculos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad6/Ejercicio6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Actividad9/Figuras.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Visual/JuegoMoneda/.idea/codestream.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Busquedacsv2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Busquedacsv2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Busquedacsv2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Busquedacsv2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Busquedacsv2/Busquedacsv2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Busquedacsv2/out/production/Busquedacsv2/BusquedaCSV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Busquedacsv2/out/production/Busquedacsv2/MostrarYBuscar$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Busquedacsv2/out/production/Busquedacsv2/MostrarYBuscar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Busquedacsv2/out/production/Busquedacsv2/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Busquedacsv2/out/production/Busquedacsv2/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Busquedacsv2/out/production/Busquedacsv2/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Busquedacsv2/out/production/Busquedacsv2/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Busquedacsv2/out/production/Busquedacsv2/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Busquedacsv2/out/production/Busquedacsv2/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Busquedacsv2/out/production/Busquedacsv2/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Busquedacsv2/out/production/Busquedacsv2/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Busquedacsv2/out/production/Busquedacsv2/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Busquedacsv2/out/production/Busquedacsv2/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Busquedacsv2/out/production/Busquedacsv2/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Busquedacsv2/src/BusquedaCSV.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Busquedacsv2/src/MostrarYBuscar.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Busquedacsv2/src/MostrarYBuscar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Figuras/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Figuras/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Figuras/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Figuras/Figuras.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Figuras/out/production/Figuras/Circulo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Figuras/out/production/Figuras/Cuadrado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Figuras/out/production/Figuras/Figuras.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Figuras/out/production/Figuras/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Figuras/out/production/Figuras/Triangulo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Figuras/src/Circulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Figuras/src/Cuadrado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Figuras/src/Figuras.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Figuras/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Figuras/src/Triangulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Libros/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Libros/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListaInvitados/out/production/ListaPersonas/Invitados.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ListaInvitados/out/production/ListaPersonas/Invitados.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListaInvitados/out/production/ListaPersonas/MiMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ListaInvitados/out/production/ListaPersonas/MiMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListaInvitados/src/Invitados.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ListaInvitados/src/Invitados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListaInvitados/src/MiMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ListaInvitados/src/MiMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pila.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Publicaciones/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Publicaciones/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Publicaciones/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Publicaciones/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Publicaciones/Publicaciones.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Publicaciones/out/production/Publicaciones/Libros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Publicaciones/out/production/Publicaciones/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Publicaciones/out/production/Publicaciones/Paquetes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Publicaciones/out/production/Publicaciones/Prestable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Publicaciones/out/production/Publicaciones/Publicacion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Publicaciones/out/production/Publicaciones/Revistas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Publicaciones/src/Libros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Publicaciones/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Publicaciones/src/Paquetes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Publicaciones/src/Prestable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Publicaciones/src/Publicacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Publicaciones/src/Revistas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vehiculos/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vehiculos/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vehiculos/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vehiculos/Vehiculos.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vehiculos/out/production/Vehiculos/Barcos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vehiculos/out/production/Vehiculos/Camiones.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vehiculos/out/production/Vehiculos/Coches.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vehiculos/out/production/Vehiculos/Compradores.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vehiculos/out/production/Vehiculos/PersonasFisicas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vehiculos/out/production/Vehiculos/PersonasJuridicas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vehiculos/out/production/Vehiculos/Vehiculos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vehiculos/out/production/Vehiculos/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vehiculos/src/Barcos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vehiculos/src/Camiones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vehiculos/src/Coches.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vehiculos/src/Compradores.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vehiculos/src/PersonasFisicas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vehiculos/src/PersonasJuridicas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vehiculos/src/Vehiculos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vehiculos/src/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Visual/JuegoMoneda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Visual/JuegoMoneda/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +111,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1R8jFUF5243f5djjeMX7kjm7d4x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
@@ -82,8 +184,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569055513597</updated>
+      <workItem from="1573147692632" duration="1291000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PruebasJava$holamundo.ic" NAME="holamundo Coverage Results" MODIFIED="1569058972844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

@@ -1,12 +1,10 @@
-import java.util.ArrayList;
-import java.util.Comparator;
-
 public class Invitados implements Comparable<Invitados> {
     private String apellido;
-    private int edad;
+    String edad;
 
 
-    public Invitados(String nombre, int edad) {
+
+    public Invitados(String nombre, String edad) {
         this.apellido = nombre;
         this.edad = edad;
     }
@@ -27,11 +25,11 @@ public class Invitados implements Comparable<Invitados> {
         this.apellido = apellido;
     }
 
-    public int getEdad() {
+    public String getEdad() {
         return edad;
     }
 
-    public void setEdad(int edad) {
+    public void setEdad(String edad) {
         this.edad = edad;
     }
 

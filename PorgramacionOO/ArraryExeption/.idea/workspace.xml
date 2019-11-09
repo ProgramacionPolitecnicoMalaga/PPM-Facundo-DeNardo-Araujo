@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e1d753c-36e0-4c44-bda0-53d30c34751c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArraryExeption/TrabajandoConArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArraryExeption/TrabajandoConArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClaseDePrueba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClaseDePrueba.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TrabajandoConArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrabajandoConArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Visual/JuegoMoneda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Visual/JuegoMoneda/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Visual/JuegoMoneda/out/production/JuegoMoneda/CaraCruz$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Visual/JuegoMoneda/out/production/JuegoMoneda/CaraCruz$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Visual/JuegoMoneda/out/production/JuegoMoneda/CaraCruz$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Visual/JuegoMoneda/out/production/JuegoMoneda/CaraCruz$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Visual/JuegoMoneda/out/production/JuegoMoneda/CaraCruz$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Visual/JuegoMoneda/out/production/JuegoMoneda/CaraCruz$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Visual/JuegoMoneda/out/production/JuegoMoneda/CaraCruz.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Visual/JuegoMoneda/out/production/JuegoMoneda/CaraCruz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Visual/JuegoMoneda/src/CaraCruz.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Visual/JuegoMoneda/src/CaraCruz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArraryExeption/ClaseDePrueba.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArraryExeption/TrabajandoConArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PruebasJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PruebasJava/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,6 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572867732086</updated>
       <workItem from="1572946716148" duration="5301000" />
+      <workItem from="1573233865520" duration="6327000" />
     </task>
     <servers />
   </component>
@@ -102,7 +96,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

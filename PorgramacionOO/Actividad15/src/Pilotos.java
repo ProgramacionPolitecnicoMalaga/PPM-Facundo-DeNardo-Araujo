@@ -7,7 +7,7 @@ public class Pilotos implements Comparable<Pilotos>{
     int posicionDeSalida;
     boolean descalificado;
 
-    ArrayList<Pilotos> clasificacion = new ArrayList<>();
+
 
     public Pilotos(int posicionDeSalida, String nombre, String escuderia) {
         this.nombre = nombre;
@@ -20,9 +20,6 @@ public class Pilotos implements Comparable<Pilotos>{
         return ((Pilotos) piloto).getNombre().equals(nombre);
     }
 
-    public void añadirPiloto(Pilotos piloto){
-        clasificacion.add(piloto);
-    }
 
     public String getNombre() {
         return nombre;
@@ -58,10 +55,10 @@ public class Pilotos implements Comparable<Pilotos>{
 
     @Override
     public String toString() {
-        return "Pilotos{" +
-                "nombre= '" + nombre + '\'' +
-                ", escuderia= '" + escuderia + '\'' +
-                ", posicionDeSalida= " + posicionDeSalida + "}";
+        return
+                "Piloto: '" + nombre + " " +
+                ", Escuderia: '" + escuderia + " " +
+                ", Posicion: " + posicionDeSalida;
     }
 
 

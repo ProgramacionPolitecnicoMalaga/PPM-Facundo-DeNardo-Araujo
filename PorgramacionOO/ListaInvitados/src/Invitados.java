@@ -1,19 +1,24 @@
+import java.time.LocalDate;
+import java.time.Period;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
+import java.util.*;
+
 public class Invitados implements Comparable<Invitados> {
     private String apellido;
-    String edad;
+    Date fechaNacimiento;
 
-
-
-    public Invitados(String nombre, String edad) {
+    public Invitados(String nombre, Date fechaNacimiento) {
         this.apellido = nombre;
-        this.edad = edad;
+        this.fechaNacimiento = fechaNacimiento;
+
     }
 
     @Override
     public String toString() {
         return "Invitados{" +
                 "apellido='" + apellido + '\'' +
-                ", edad=" + edad +
+                ", edad=" + fechaNacimiento +
                 '}';
     }
 
@@ -25,12 +30,12 @@ public class Invitados implements Comparable<Invitados> {
         this.apellido = apellido;
     }
 
-    public String getEdad() {
-        return edad;
+    public Date getFechaNacimiento() {
+        return fechaNacimiento;
     }
 
-    public void setEdad(String edad) {
-        this.edad = edad;
+    public void setFechaNacimiento(Date fechaNacimiento) {
+        this.fechaNacimiento = fechaNacimiento;
     }
 
 

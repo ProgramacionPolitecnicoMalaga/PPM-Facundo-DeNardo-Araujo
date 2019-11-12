@@ -1,14 +1,14 @@
+import java.util.Random;
+
 public class MiMain {
-    public static void main(String[] args) {
+    public static void main(String[] args) { //java util timer
         ListaPilotos listaPilotos = new ListaPilotos();
         listaPilotos.cargarLista();
         listaPilotos.mostrarLista();
-        System.out.println("==========================================================================");
-        listaPilotos.moverPiloto("Hamilton L.", 3);
+        System.out.println("===================Hamilton adelanta 2 posiciones================================");
+        listaPilotos.atrasarPilotoAleatorio();
         listaPilotos.mostrarLista();
-        System.out.println("==============================");
-        listaPilotos.descalificarPiloto("Albon A.");
-        listaPilotos.descalificarPiloto("Grosjean R.");
-        listaPilotos.mostrarLista();
+        listaPilotos.runLap();
+
     }
 }

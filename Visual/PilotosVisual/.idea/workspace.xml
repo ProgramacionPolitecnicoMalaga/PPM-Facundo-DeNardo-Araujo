@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f33f84c8-649c-4cf4-a949-7469ee34c6cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../LinkedList/src/ElementoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LinkedList/src/Pila.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LinkedList/src/ProbandoLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pilotos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PilotosVisual.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PilotosVisual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PorgramacionOO/ProbandoXPath/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PorgramacionOO/ProbandoXPath/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PorgramacionOO/ProbandoXPath/out/production/ProbandoXPath/ProbandoXPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PorgramacionOO/ProbandoXPath/out/production/ProbandoXPath/ProbandoXPath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PorgramacionOO/ProbandoXPath/src/ProbandoXPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PorgramacionOO/ProbandoXPath/src/ProbandoXPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Visual/JuegoMoneda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Visual/JuegoMoneda/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Visual/PilotosVisual/.idea/workspace.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="f33f84c8-649c-4cf4-a949-7469ee34c6cd" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +16,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -45,6 +32,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -91,6 +79,7 @@
       <workItem from="1573662301520" duration="896000" />
       <workItem from="1573716546029" duration="2000" />
       <workItem from="1573719555946" duration="3296000" />
+      <workItem from="1573729615509" duration="36000" />
     </task>
     <servers />
   </component>

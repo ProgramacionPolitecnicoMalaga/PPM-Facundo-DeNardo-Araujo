@@ -22,7 +22,8 @@ public class ProbandoLinkedList {
         indexOf
         contains
 
-         */
+
+
         LinkedList<ElementoTest> llist = new LinkedList<>();
         Iterator<ElementoTest> it = llist.listIterator();
         llist.addFirst(new ElementoTest("primer Elemento",1));
@@ -40,6 +41,35 @@ public class ProbandoLinkedList {
         System.out.println(llist);
         System.out.println(llist.removeLast());
         System.out.println(llist);
+        */
+        LinkedList<Integer> lista1 = new LinkedList<>();
+        LinkedList<Integer> lista2 = new LinkedList<>();
+
+        lista1.add(12);
+        lista1.add(22);
+        lista1.add(5);
+        System.out.println(lista1);
+
+        int amover = lista1.getLast();
+
+        lista1.removeLast();
+        System.out.println(lista1);
+
+        lista2.add(amover);
+
+        int amover2 = lista1.getLast();
+
+        lista1.removeLast();
+        System.out.println(lista1);
+
+
+        lista2.add(amover2);
+        System.out.println(lista2);
+
+
+
+
+
 
     }
 }

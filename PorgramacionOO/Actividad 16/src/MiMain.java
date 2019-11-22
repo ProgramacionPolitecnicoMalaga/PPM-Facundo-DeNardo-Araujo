@@ -23,7 +23,5 @@ public class MiMain {
         jugador1.redo();
         jugador1.redo();
         jugador1.historial();
-
-
     }
 }

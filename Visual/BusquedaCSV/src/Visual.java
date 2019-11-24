@@ -21,7 +21,7 @@ public class Visual {
         BUSCARButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                mostrarBusqueda();
+                mostrarProductoBuscado();
             }
         });
     }
@@ -40,29 +40,38 @@ public class Visual {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        mostrarBusqueda();
     }
 
     public void mostrarBusqueda(){
         textArea1.setText(null);
         String productoBuscado = textField1.getText();
         Iterator<Producto> it = lista.iterator();
-        while (it.hasNext()){
-            String nombreProd =  it.next().getNombreProducto().toLowerCase();
-            String[] nombreArray = nombreProd.split("[ ,]+");
-            if (nombreProd.contains(productoBuscado)){
-                textArea1.append(it.next().toString() + "\n");
+            while (it.hasNext()){
+                textArea1.append(it.next().toString() +"\n");
             }
-            /*for (int i = 0; i < nombreArray.length; i++){
-                if (nombreArray[i].equalsIgnoreCase(productoBuscado)){
-                    textArea1.append(it.next().toString() + "\n");
-                }
-            }*/
-        }
     }
 
     public void mostrarProductoBuscado(){
-        for (int i = 0;i < lista.size(); i++ ) {
-            textArea1.setText(lista.get(i).getNombreProducto());
+        textArea1.setText(null);
+        String productoABuscar = textField1.getText();
+        try {
+            BufferedReader br = new BufferedReader(new FileReader("archivo.csv"));
+            String line = br.readLine();
+            while (null != line) {
+                String[] fields = line.split(";");
+                for (int i = 0; i < fields.length; i++){
+                    if (fields[i].toLowerCase().contains(productoABuscar.toLowerCase())){
+                        Producto prEnc = new Producto(Integer.parseInt(fields[0]),fields[1],fields[2],fields[3],fields[4]);
+                        textArea1.append(prEnc.toString() + "\n");
+                    }
+                }
+                line = br.readLine();
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 

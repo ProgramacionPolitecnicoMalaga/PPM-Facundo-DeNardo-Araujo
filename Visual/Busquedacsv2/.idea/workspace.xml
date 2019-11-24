@@ -2,20 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fbd9f1a-820c-4827-967c-782a32b8d8e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../PorgramacionOO/Actividad15/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PorgramacionOO/Actividad15/src/Visual.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PorgramacionOO/Actividad15/src/Visual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Actividad15/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/Actividad15/.idea/codestream.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Actividad15/out/production/Ejercicio15/ListaPilotos.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/Actividad15/out/production/Ejercicio15/ListaPilotos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Actividad15/out/production/Ejercicio15/META-INF/Ejercicio15.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Actividad15/out/production/Ejercicio15/MiMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/Actividad15/out/production/Ejercicio15/MiMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Actividad15/src/CompararPilotos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/Actividad15/src/CompararPilotos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Actividad15/src/ListaPilotos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/Actividad15/src/ListaPilotos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Actividad15/src/MiMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/Actividad15/src/MiMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BusquedaCSV2.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BusquedaCSV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Producto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BusquedaCSV/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BusquedaCSV/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusquedaCSV/out/production/BusquedaCSV/Visual$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BusquedaCSV/out/production/BusquedaCSV/Visual$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BusquedaCSV/out/production/BusquedaCSV/Visual.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BusquedaCSV/out/production/BusquedaCSV/Visual.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusquedaCSV/src/Visual.form" beforeDir="false" afterPath="$PROJECT_DIR$/../BusquedaCSV/src/Visual.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusquedaCSV/src/Visual.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BusquedaCSV/src/Visual.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JuegoMoneda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JuegoMoneda/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BusquedaCSV.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MostrarYBuscar.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MostrarYBuscar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PilotosVisual/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PilotosVisual/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,11 +33,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1St7nNrmDyjI7LAwwQtS5Q08ujG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -52,9 +59,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MostrarYBuscar">
+  <component name="RunManager" selected="Application.BusquedaCSV2">
     <configuration name="BusquedaCSV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BusquedaCSV" />
+      <module name="Busquedacsv2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusquedaCSV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BusquedaCSV2" />
       <module name="Busquedacsv2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BusquedaCSV2" />
         <item itemvalue="Application.MostrarYBuscar" />
         <item itemvalue="Application.BusquedaCSV" />
       </list>
@@ -85,6 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572371203267</updated>
       <workItem from="1573387220613" duration="46000" />
+      <workItem from="1574591765987" duration="7747000" />
     </task>
     <servers />
   </component>
@@ -96,7 +112,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

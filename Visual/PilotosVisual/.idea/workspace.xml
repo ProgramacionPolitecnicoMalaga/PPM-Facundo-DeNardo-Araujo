@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f33f84c8-649c-4cf4-a949-7469ee34c6cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../PorgramacionOO/Actividad 17/Actividad 17.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PorgramacionOO/Actividad12/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PorgramacionOO/ArrayListVsLinkedList/ArrayListVsLinkedList.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Actividad 16/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/Actividad 16/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Actividad 16/out/production/Actividad 16/META-INF/Actividad 16.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Actividad 16/out/production/Actividad 16/MiMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/Actividad 16/out/production/Actividad 16/MiMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Actividad 16/src/MiMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/Actividad 16/src/MiMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Actividad12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/Actividad12/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Actividad12/src/Coches.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/Actividad12/src/Coches.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Actividad12/src/PersonasFisicas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/Actividad12/src/PersonasFisicas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Actividad12/src/PersonasJuridicas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/Actividad12/src/PersonasJuridicas.java" afterDir="false" />
-    </list>
+    <list default="true" id="f33f84c8-649c-4cf4-a949-7469ee34c6cd" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +84,7 @@
       <workItem from="1574001968102" duration="1081000" />
       <workItem from="1574097141622" duration="1429000" />
       <workItem from="1574357246533" duration="948000" />
+      <workItem from="1574593596216" duration="623000" />
     </task>
     <servers />
   </component>

@@ -7,7 +7,7 @@ public class Jugador implements JuegoOca {
     String nombre;
     int casillaInicial;
     Random dado = new Random();
-    LinkedList<Integer> historialCasillas = new LinkedList<>();
+    LinkedList<Integer> historialCasillas = new LinkedList<>();//guardar una clase casilla en lugar de entero, es mejor para futuras ampliaciones
     LinkedList<Integer> RedoUndo = new LinkedList<>();
 
 

@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fbd9f1a-820c-4827-967c-782a32b8d8e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Actividad 18/src/Paciente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad 18/src/RegistroYListaEspera.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad 18/src/RegistroYListaEspera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Actividad 18/src/TipoDeUrgencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProbandoTreeSet/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProbandoTreeSet/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProbandoTreeSet/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProbandoTreeSet/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProbandoTreeSet/src/ProbandoHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProbandoTreeSet/src/ProbandoPriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProbandoTreeSet/src/ProbandoTreeSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProbandoTreeSet/src/Tarea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Actividad 16/src/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/Actividad 16/src/Jugador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/GestionDeIncidencias/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/GestionDeIncidencias/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Reproductor/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Actividad 18/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/Actividad 18/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Actividad 18/out/production/Actividad 18/META-INF/Actividad 18.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/ProbandoTreeSet/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/ProbandoTreeSet/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BusquedaCSV/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BusquedaCSV/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Busquedacsv2/BusquedaCSV2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Busquedacsv2/BusquedaCSV2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Busquedacsv2/BusquedaCSV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Busquedacsv2/BusquedaCSV2.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +96,7 @@
       <workItem from="1573387220613" duration="46000" />
       <workItem from="1574591765987" duration="7747000" />
       <workItem from="1574701544551" duration="282000" />
+      <workItem from="1574844096495" duration="615000" />
     </task>
     <servers />
   </component>

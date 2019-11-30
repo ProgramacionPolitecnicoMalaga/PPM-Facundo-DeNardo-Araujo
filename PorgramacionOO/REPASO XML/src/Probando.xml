@@ -1,0 +1,27 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Libros almacén="Guadalpín">
+    <Libro id="1234">
+        <Nombre>MySQL</Nombre>
+        <Editorial año="2005">Sybex</Editorial>
+        <Capítulos>
+            <Capítulo número="1">Guía rápida de MySQL</Capítulo>
+            <Capítulo número="2">Tipos de datos y tipos de tabla</Capítulo>
+            <Capítulo número="3">SQL Avanzado</Capítulo>
+            <Capítulo número="4">Programación con MySQL</Capítulo>
+            <Capítulo número="5">Índices y optimización de consultas</Capítulo>
+        </Capítulos>
+    </Libro>
+    <Libro id="4321">
+        <Nombre>Windows Server 2003</Nombre>
+        <Editorial año="2004">Anaya</Editorial>
+        <Capítulos>
+            <Capítulo número="1">Fundamentos previos</Capítulo>
+            <Capítulo número="2">Características de Windows Server 2003</Capítulo>
+            <Capítulo número="3">Preinstalación</Capítulo>
+            <Capítulo número="4">Instalación</Capítulo>
+            <Capítulo número="5">Asistente de configuración</Capítulo>
+            <Capítulo número="6">Administración</Capítulo>
+        </Capítulos>
+    </Libro>
+</Libros>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<empleados>
+    <empleado>
+        <nombre>pepe</nombre>
+        <dni>1234556</dni>
+    </empleado>
+    <empleado>
+        <nombre>jaun</nombre>
+        <dni>98765343</dni>
+    </empleado>
+    <empleado>
+        <nombre>luis</nombre>
+        <dni>4SDFSF556</dni>
+    </empleado>
+</empleados>

@@ -1,16 +1,15 @@
-import org.w3c.dom.NodeList;
-import org.w3c.dom.xpath.XPathEvaluator;
+import java.util.Objects;
 
 public class Aeropuerto {
     String area;
     String matricula;
-    Double lat;
-    Double lon;
+    String lat;
+    String lon;
     String nombreCorto;
     String nombreLargo;
     String pais;
 
-    public Aeropuerto(String area, String matricula, Double lat, Double lon, String nombreCorto,String nombreLargo, String pais) {
+    public Aeropuerto(String area, String matricula, String lat, String lon, String nombreCorto, String nombreLargo, String pais) {
         this.area = area;
         this.matricula = matricula;
         this.lat = lat;
@@ -18,6 +17,19 @@ public class Aeropuerto {
         this.nombreCorto = nombreCorto;
         this.nombreLargo = nombreLargo;
         this.pais = pais;
+    }
+
+    @Override
+    public String toString() {
+        return "Aeropuerto{" +
+                "area='" + area + '\'' +
+                ", matricula='" + matricula + '\'' +
+                ", lat='" + lat + '\'' +
+                ", lon='" + lon + '\'' +
+                ", nombreCorto='" + nombreCorto + '\'' +
+                ", nombreLargo='" + nombreLargo + '\'' +
+                ", pais='" + pais + '\'' +
+                '}';
     }
 
     public String getArea() {
@@ -36,19 +48,19 @@ public class Aeropuerto {
         this.matricula = matricula;
     }
 
-    public Double getLat() {
+    public String getLat() {
         return lat;
     }
 
-    public void setLat(Double lat) {
+    public void setLat(String lat) {
         this.lat = lat;
     }
 
-    public Double getLon() {
+    public String getLon() {
         return lon;
     }
 
-    public void setLon(Double lon) {
+    public void setLon(String lon) {
         this.lon = lon;
     }
 

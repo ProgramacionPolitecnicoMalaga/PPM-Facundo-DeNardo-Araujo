@@ -1,13 +1,52 @@
+import java.util.ArrayList;
+import java.util.Iterator;
+
 public class Empleado {
     String nombre;
     String apellidos;
     String DNI;
+    String categoria;
+    int sueldo;
+    double productividad = 0;
 
-    public Empleado(String nombre, String apellidos, String DNI) {
+    ArrayList<Actividad> actividadesDelEmpleado = new ArrayList<>();
+
+    public Empleado(String nombre, String apellidos, String DNI, String categoria, int sueldo) {
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.DNI = DNI;
+        this.categoria = categoria;
+        this.sueldo = sueldo;
     }
+
+    public double calcularProductividad(){
+        double prodCalculada = 0;
+        for (int i = 0; i < actividadesDelEmpleado.size(); i++){
+            prodCalculada += actividadesDelEmpleado.get(i).getProyecto().getFprod() * actividadesDelEmpleado.get(i).getNumHoras();
+
+        }
+        return this.productividad = prodCalculada;
+    }
+
+    public double getProductividad() {
+        return productividad;
+    }
+
+    public void setProductividad(double productividad) {
+        this.productividad = productividad;
+    }
+
+    public void añadirActividadRealizada(Actividad ActividadRealizada){
+        actividadesDelEmpleado.add(ActividadRealizada);
+    }
+    public void MostrarActividadesRealizadas(){
+        Iterator<Actividad> it = actividadesDelEmpleado.iterator();
+        while (it.hasNext()){
+            System.out.println(it.next());
+        }
+    }
+
+
 
 
     public String getNombre() {

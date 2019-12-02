@@ -10,13 +10,15 @@ import java.util.Iterator;
 
 public class RegistroEmpleados extends JFrame {
     private JButton REGISTRARButton;
-    private JTextField textField1;
-    private JTextField textField2;
-    private JTextField textField3;
+    private JTextField nombreEmp;
+    private JTextField apellidosEmp;
+    private JTextField dniEmp;
     private JComboBox comboBox1;
     private JTextField sueldoEmpleado;
     private JPanel panel1;
     ArrayList<Categoria> lista = new ArrayList<>();
+    ArrayList<Empleado> listaEmpleadosRegistrados = new ArrayList<>();
+
 
 
     public RegistroEmpleados() {
@@ -25,7 +27,9 @@ public class RegistroEmpleados extends JFrame {
         REGISTRARButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+            listaEmpleadosRegistrados.add(new Empleado(nombreEmp.getText(),apellidosEmp.getText(),dniEmp.getText(),comboBox1.getSelectedItem().toString(),Integer.parseInt(sueldoEmpleado.getText())));
+                System.out.println(listaEmpleadosRegistrados);
+                
             }
         });
         comboBox1.addActionListener(new ActionListener() {
@@ -35,6 +39,10 @@ public class RegistroEmpleados extends JFrame {
                 sueldoEmpleado.setText(Integer.toString(cat.getSueldo()));
             }
         });
+    }
+
+    public ArrayList<Empleado> getListaEmpleadosRegistrados() {
+        return listaEmpleadosRegistrados;
     }
 
     public void añadirCategoriasACombo(){

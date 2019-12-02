@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         Empleado emp1 = new Empleado("Facundo", "De Nardo", "Y1029209L", "Tecnico", 900);
         Proyecto pro1 = new Proyecto("Alphasec", "Seguridad", 2.5, "El primer proyecto de la empresa");
-        Actividad act1 = new Actividad(15,pro1,"esta es la descripcion de la actividad");
+        Actividad act1 = new Actividad(15, pro1,"esta es la descripcion de la actividad");
 
         emp1.añadirActividadRealizada(act1);
         emp1.añadirActividadRealizada(act1);

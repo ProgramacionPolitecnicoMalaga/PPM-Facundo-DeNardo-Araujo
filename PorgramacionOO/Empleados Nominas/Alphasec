@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ActividadesProyecto>
+    <Actividad DescripcionActividad="esta es la descripcion de la actividad" Horas="15.0" NombreProyecto="Alphasec"/>
+    <Actividad DescripcionActividad="esta es la descripcion de la segunda actividad" Horas="12.0" NombreProyecto="Alphasec"/>
+    <Actividad DescripcionActividad="esta es la descripcion de la actividad" Horas="15.0" NombreProyecto="Alphasec"/>
+    <Actividad DescripcionActividad="esta es la descripcion de la segunda actividad" Horas="12.0" NombreProyecto="Alphasec"/>
+    <Actividad DescripcionActividad="esta es la descripcion de la actividad" Horas="15.0" NombreProyecto="Alphasec"/>
+    <Actividad DescripcionActividad="esta es la descripcion de la segunda actividad" Horas="12.0" NombreProyecto="Alphasec"/>
+</ActividadesProyecto>

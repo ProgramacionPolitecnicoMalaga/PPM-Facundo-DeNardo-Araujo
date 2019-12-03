@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Empleados>
+    <Empleado Apellidos="De Nardo" Categoria="Tecnico" Nombre="Facundo" Productividad="105.0" SueldoBase="900" SueldoTotal="1005.0"/>
+    <Empleado Apellidos="Apellidos2" Categoria="Tecnico" Nombre="nombre2" Productividad="97.5" SueldoBase="900" SueldoTotal="997.5"/>
+</Empleados>

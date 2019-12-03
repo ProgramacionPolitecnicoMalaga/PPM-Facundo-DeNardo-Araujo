@@ -8,7 +8,6 @@ public class Empleado {
     String categoria;
     int sueldo;
     double productividad = 0;
-
     ArrayList<Actividad> actividadesDelEmpleado = new ArrayList<>();
 
     public Empleado(String nombre, String apellidos, String DNI, String categoria, int sueldo) {
@@ -26,6 +25,30 @@ public class Empleado {
 
         }
         return this.productividad = prodCalculada;
+    }
+
+    public String getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
+    }
+
+    public int getSueldo() {
+        return sueldo;
+    }
+
+    public void setSueldo(int sueldo) {
+        this.sueldo = sueldo;
+    }
+
+    public ArrayList<Actividad> getActividadesDelEmpleado() {
+        return actividadesDelEmpleado;
+    }
+
+    public void setActividadesDelEmpleado(ArrayList<Actividad> actividadesDelEmpleado) {
+        this.actividadesDelEmpleado = actividadesDelEmpleado;
     }
 
     public double getProductividad() {

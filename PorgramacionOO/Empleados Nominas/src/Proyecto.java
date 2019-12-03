@@ -13,12 +13,7 @@ public class Proyecto {
 
     @Override
     public String toString() {
-        return "Proyecto{" +
-                "nombre='" + nombre + '\'' +
-                ", departamento='" + departamento + '\'' +
-                ", fprod=" + fprod +
-                ", descripcion='" + descripcion + '\'' +
-                '}';
+        return nombre;
     }
 
     public String getNombre() {

@@ -20,7 +20,7 @@ public class Aeropuertos {
 
 
     public Aeropuertos(){
-        cargarXML();
+        cargarXML("aeropuertos.xml");
         cargarCombo();
         comboBox1.addActionListener(new ActionListener() {
             @Override
@@ -31,6 +31,7 @@ public class Aeropuertos {
     }
 
     public void buscarAeropuerto(){
+        textArea1.setText(null);
         String paisCombo =comboBox1.getSelectedItem().toString();
         for (int i = 0; i < lista.size(); i++){
             if (lista.get(i).getPais().equals(paisCombo)){
@@ -39,8 +40,8 @@ public class Aeropuertos {
         }
     }
 
-    public void cargarXML(){
-        File file = new File("aeropuertos.xml");
+    public void cargarXML(String nombreArchivo){
+        File file = new File(nombreArchivo);
         try {
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();

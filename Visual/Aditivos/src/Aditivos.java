@@ -26,6 +26,7 @@ public class Aditivos {
     JsonArray array;
     Gson gson;
 
+
     public Aditivos() {
         cargarAditivosFromJson();
         list1.setModel(listModel);
@@ -60,11 +61,6 @@ public class Aditivos {
                 listModel.addElement(gson.fromJson(array.get(i), Aditivo.class));
             }
         }}catch (IndexOutOfBoundsException e){}
-        /*for (int i = 0; i < lista.size(); i++){
-            if (lista.get(i).toString().toLowerCase().contains(buscado.toLowerCase())){
-                listModel.addElement(lista.get(i));
-            }
-        }*/
     }
 
     public void cargarAditivosFromJson(){

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Asignatura>
+    <Alumno NombreAlumno="JUAN">
+        <Indicador Nombre="Examen Tema 1" Nota="7.6" Tipo="Examen"/>
+    </Alumno>
+    <Alumno NombreAlumno="PEPE">
+        <Indicador Nombre="Examen Tema 1" Nota="9.5" Tipo="Examen"/>
+    </Alumno>
+</Asignatura>

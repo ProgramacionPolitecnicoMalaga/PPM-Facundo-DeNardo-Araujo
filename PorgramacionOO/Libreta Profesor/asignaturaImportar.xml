@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Asignatura>
+    <Alumno NombreAlumno="PEDRO">
+        <Indicador Nombre="Examen Tema 1" Nota="3.6" Tipo="Examen"/>
+    </Alumno>
+    <Alumno NombreAlumno="PEPE">
+        <Indicador Nombre="Examen Tema 1" Nota="6.5" Tipo="Examen"/>
+    </Alumno>
+    <Alumno NombreAlumno="PACO">
+        <Indicador Nombre="Examen Tema 1" Nota="7.6" Tipo="Examen"/>
+    </Alumno>
+    <Alumno NombreAlumno="LUIS">
+        <Indicador Nombre="Examen Tema 1" Nota="9.5" Tipo="Examen"/>
+    </Alumno>
+    <Alumno NombreAlumno="ANA">
+        <Indicador Nombre="Examen Tema 1" Nota="8.6" Tipo="Examen"/>
+    </Alumno>
+    <Alumno NombreAlumno="SANDRA">
+        <Indicador Nombre="Examen Tema 1" Nota="5.5" Tipo="Examen"/>
+    </Alumno>
+    <Alumno NombreAlumno="MARIA">
+        <Indicador Nombre="Examen Tema 1" Nota="4.6" Tipo="Examen"/>
+    </Alumno>
+    <Alumno NombreAlumno="PEPE2">
+        <Indicador Nombre="Examen Tema 1" Nota="2.5" Tipo="Examen"/>
+    </Alumno>
+</Asignatura>

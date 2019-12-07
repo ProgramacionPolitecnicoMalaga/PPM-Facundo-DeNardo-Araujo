@@ -90,15 +90,15 @@ public class GeneradorDeXML {
 
                                 Attr NodoHorasDeLaActividad = doc.createAttribute("Horas");
                                 NodoHorasDeLaActividad.setValue(Double.toString(Actividad.getNumHoras()));
-                                System.out.println(Actividad.getNumHoras());
+
 
                                 Attr NodoNombreProyecto = doc.createAttribute("NombreProyecto");
                                 NodoNombreProyecto.setValue(Actividad.getProyecto().getNombre());
-                                System.out.println(Actividad.getProyecto().getNombre());
+
 
                                 Attr NodoDescripcionActividad = doc.createAttribute("DescripcionActividad");
                                 NodoDescripcionActividad.setValue(Actividad.getDescripcion());
-                                System.out.println(Actividad.getDescripcion());
+
 
                                 NodoActividad.setAttributeNode(NodoHorasDeLaActividad);
                                 NodoActividad.setAttributeNode(NodoNombreProyecto);

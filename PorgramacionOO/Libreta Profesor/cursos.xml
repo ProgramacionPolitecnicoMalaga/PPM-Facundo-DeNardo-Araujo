@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Cursos>
+    <Curso ID="S11AW" NombreCurso="1º Desarrollo Aplicaciones Web">
+        <Asignatura ID="prog" NombreAsignatura="Programacion"/>
+    </Curso>
+</Cursos>

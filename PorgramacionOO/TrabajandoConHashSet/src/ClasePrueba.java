@@ -19,7 +19,7 @@ public class ClasePrueba {
 
     @Override
     public int hashCode() {
-        return numero; //asigna como has el propio atributo numero.
+        return numero; //asigna como hash el propio atributo numero.
     }
 
     public String getCadena() {

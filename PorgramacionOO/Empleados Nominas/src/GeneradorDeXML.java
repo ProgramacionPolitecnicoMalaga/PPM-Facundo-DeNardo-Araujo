@@ -53,7 +53,7 @@ public class GeneradorDeXML {
                         TransformerFactory transformerFactory = TransformerFactory.newInstance();
                         Transformer transformer = transformerFactory.newTransformer();
                         DOMSource source = new DOMSource(doc);
-                        StreamResult result = new StreamResult(new File(EmpleadoACalcular.getDNI()));
+                        StreamResult result = new StreamResult(new File(EmpleadoACalcular.getDNI() + ".xml"));
                         transformer.setOutputProperty(OutputKeys.INDENT,"yes");
                         transformer.transform(source,result);
                 } catch (ParserConfigurationException | TransformerConfigurationException e) {
@@ -109,7 +109,7 @@ public class GeneradorDeXML {
                         TransformerFactory transformerFactory = TransformerFactory.newInstance();
                         Transformer transformer = transformerFactory.newTransformer();
                         DOMSource source = new DOMSource(doc);
-                        StreamResult result = new StreamResult(new File(ProyectoABuscar.getNombre()));
+                        StreamResult result = new StreamResult(new File(ProyectoABuscar.getNombre() + ".xml"));
                         transformer.setOutputProperty(OutputKeys.INDENT,"yes");
                         transformer.transform(source,result);
                 } catch (ParserConfigurationException | TransformerConfigurationException e) {
@@ -173,7 +173,7 @@ public class GeneradorDeXML {
                 TransformerFactory transformerFactory = TransformerFactory.newInstance();
                 Transformer transformer = transformerFactory.newTransformer();
                 DOMSource source = new DOMSource(doc);
-                StreamResult result = new StreamResult(new File("NominasEmpleados"));
+                StreamResult result = new StreamResult(new File("NominasEmpleados.xml"));
                 transformer.setOutputProperty(OutputKeys.INDENT,"yes");
                 transformer.transform(source,result);
             } catch (ParserConfigurationException | TransformerConfigurationException e) {

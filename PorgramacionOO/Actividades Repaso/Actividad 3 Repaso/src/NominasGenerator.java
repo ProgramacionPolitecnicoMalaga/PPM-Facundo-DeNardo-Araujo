@@ -3,7 +3,7 @@ public class NominasGenerator {
     public NominasGenerator(){}
 
     public Comisionado calNominaComisionado(Comisionado comisionado){
-        int salarioTotal = comisionado.getnVentas() + comisionado.getSueldoBase();
+        int salarioTotal = (comisionado.getnVentas() * comisionado.PAGO_POR_VENTA) + comisionado.getSueldoBase();
         Nomina nomina = new Nomina(salarioTotal);
         comisionado.setNomina(nomina);
         return comisionado;

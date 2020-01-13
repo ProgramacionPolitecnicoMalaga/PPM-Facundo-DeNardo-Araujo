@@ -1,5 +1,6 @@
 public class Comisionado extends Empleado {
     public static final int SUELDO_BASE = 900;
+    public static final int PAGO_POR_VENTA = 75;
     public int nVentas;
     Nomina nomina;
 

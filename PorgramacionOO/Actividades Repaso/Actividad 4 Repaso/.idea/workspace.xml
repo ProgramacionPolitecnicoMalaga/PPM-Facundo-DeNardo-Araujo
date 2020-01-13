@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac9a598b-6990-4cfc-8f04-a722b38653f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 2 Repaso/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Repaso/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 2 Repaso/src/Comercial.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Repaso/src/Comercial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Comisionado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Comisionado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MiMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NominasGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NominasGenerator.java" afterDir="false" />
-    </list>
+    <list default="true" id="de737673-3a73-4b4a-8e62-076824585aca" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,19 +11,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
-  </component>
-  <component name="ProjectId" id="1WFH4IYsbg8mK2f362MxOHzFQEb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1WL1F3tiyXSmnXtRV0ayLGmsTcv" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -54,7 +43,7 @@
   <component name="RunManager">
     <configuration name="MiMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MiMain" />
-      <module name="Actividad 3 Repaso" />
+      <module name="Actividad 4 Repaso" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -70,31 +59,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ac9a598b-6990-4cfc-8f04-a722b38653f8" name="Default Changelist" comment="" />
-      <created>1578738229762</created>
+      <changelist id="de737673-3a73-4b4a-8e62-076824585aca" name="Default Changelist" comment="" />
+      <created>1578913953865</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1578738229762</updated>
-      <workItem from="1578738231355" duration="6851000" />
-      <workItem from="1578914703160" duration="61000" />
-      <workItem from="1578916765250" duration="2647000" />
+      <updated>1578913953865</updated>
+      <workItem from="1578913955110" duration="1820000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

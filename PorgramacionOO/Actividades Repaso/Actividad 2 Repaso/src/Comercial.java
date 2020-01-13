@@ -36,10 +36,6 @@ public class Comercial {
             return ventaMaxima;
     }
 
-    public int[] getVentas() {
-        return ventas;
-    }
-
     @Override
     public String toString() {
         return nombre;

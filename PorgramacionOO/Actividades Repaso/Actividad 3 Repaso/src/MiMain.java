@@ -22,8 +22,5 @@ public class MiMain {
 
         //MUESTRO LOS EMPLEADOS REGISTRADOS EN LA BBDD
         System.out.println(baseDatosEmpleados);
-
-
-
     }
 }

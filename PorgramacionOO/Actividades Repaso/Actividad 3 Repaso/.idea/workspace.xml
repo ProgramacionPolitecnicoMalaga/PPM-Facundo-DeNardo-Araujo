@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac9a598b-6990-4cfc-8f04-a722b38653f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 2 Repaso/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Repaso/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Actividad 2 Repaso/src/Comercial.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Repaso/src/Comercial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Comisionado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Comisionado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MiMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NominasGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NominasGenerator.java" afterDir="false" />
-    </list>
+    <list default="true" id="ac9a598b-6990-4cfc-8f04-a722b38653f8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +69,7 @@
       <updated>1578738229762</updated>
       <workItem from="1578738231355" duration="6851000" />
       <workItem from="1578914703160" duration="61000" />
-      <workItem from="1578916765250" duration="2647000" />
+      <workItem from="1578916765250" duration="2780000" />
     </task>
     <servers />
   </component>

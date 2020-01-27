@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac9a598b-6990-4cfc-8f04-a722b38653f8" name="Default Changelist" comment="" />
+    <list default="true" id="ac9a598b-6990-4cfc-8f04-a722b38653f8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Actividad 2 Repaso Refactorizada/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Actividad 2 Repaso Refactorizada/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Comisionado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Comisionado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MiMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Visual/PilotosVisual/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Visual/PilotosVisual/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +76,10 @@
       <workItem from="1578738231355" duration="6851000" />
       <workItem from="1578914703160" duration="61000" />
       <workItem from="1578916765250" duration="2780000" />
+      <workItem from="1579000605392" duration="413000" />
+      <workItem from="1579001161328" duration="1435000" />
+      <workItem from="1579429687459" duration="2074000" />
+      <workItem from="1579518670610" duration="2480000" />
     </task>
     <servers />
   </component>

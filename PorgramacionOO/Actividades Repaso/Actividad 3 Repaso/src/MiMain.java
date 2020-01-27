@@ -10,15 +10,10 @@ public class MiMain {
         emp1.setnHorasTrabajadas(56);
         emp2.setnVentas(45);
 
-        //GENERO LA NOMINA DE CADA EMPLEADO
-        nominasGenerator.calNominaAsalariado(emp0);
-        nominasGenerator.calNominaPorHoras(emp1);
-        nominasGenerator.calNominaComisionado(emp2);
-
-        //AÑADO LOS EMPLEADOS A LA BASE DE DATOS
-        baseDatosEmpleados.addEmpleado(emp0);
-        baseDatosEmpleados.addEmpleado(emp1);
-        baseDatosEmpleados.addEmpleado(emp2);
+        //GENERA NOMINA Y AÑADE AL EMPLEADO
+        baseDatosEmpleados.addEmpleado(nominasGenerator.calNominaAsalariado(emp0));
+        baseDatosEmpleados.addEmpleado(nominasGenerator.calNominaPorHoras(emp1));
+        baseDatosEmpleados.addEmpleado(nominasGenerator.calNominaComisionado(emp2));
 
         //MUESTRO LOS EMPLEADOS REGISTRADOS EN LA BBDD
         System.out.println(baseDatosEmpleados);

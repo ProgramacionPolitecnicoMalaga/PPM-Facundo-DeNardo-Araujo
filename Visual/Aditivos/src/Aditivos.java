@@ -30,7 +30,7 @@ public class Aditivos {
     public Aditivos() {
         cargarAditivosFromJson();
         list1.setModel(listModel);
-        TextAreaDescripcion.setLineWrap(true  );
+        TextAreaDescripcion.setLineWrap(true);
         button1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

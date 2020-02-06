@@ -1,13 +1,14 @@
 import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Tarea {
-    private Date fechaLimite;
+
     private String descripcion;
     private boolean completada;
     private Categoria categoria;
+    private LocalDate fechaLimite;
 
-    public Tarea(String descripcion, Date fechaLimite){
+    public Tarea(String descripcion, LocalDate fechaLimite){
         this.descripcion = descripcion;
         this.fechaLimite = fechaLimite;
         completada = false;
@@ -16,14 +17,14 @@ public class Tarea {
 
     @Override
     public String toString() {
-        return "FECHA: " + new SimpleDateFormat("dd-MM-yyyy").format(fechaLimite) + " | " + "DESCRIPCION: " + descripcion;
+        return "FECHA: " + fechaLimite + " | " + "DESCRIPCION: " + descripcion;
     }
 
     public void completarTarea(){
         completada = true;
     }
 
-    public Date getFechaLimite() {
+    public LocalDate getFechaLimite() {
         return fechaLimite;
     }
 

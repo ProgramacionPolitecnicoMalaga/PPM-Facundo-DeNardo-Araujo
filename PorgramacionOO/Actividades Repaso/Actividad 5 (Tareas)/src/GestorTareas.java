@@ -1,5 +1,5 @@
+import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -16,28 +16,26 @@ public class GestorTareas {
         tareas.add(tarea);
     }
 
-    public ArrayList<Tarea> tareasEnFecha(Date fecha){
+    public ArrayList<Tarea> tareasEnFecha(LocalDate fecha){
         ArrayList<Tarea> fechaBuscada = new ArrayList<>();
         for (Tarea tarea: tareas)
-            if (tarea.getFechaLimite().compareTo(fecha) == 0)
+            if (tarea.getFechaLimite().isEqual(fecha))
                 fechaBuscada.add(tarea);
                 return fechaBuscada;
     }
 
     public ArrayList<Tarea> tareasEnTiempo(){
-        Date fechaActual = new Date();
         ArrayList<Tarea> tareasEnTiempo = new ArrayList<>();
         for (Tarea tarea : tareas)
-            if (tarea.getFechaLimite().compareTo(fechaActual) > -1)
+            if (tarea.getFechaLimite().isEqual(LocalDate.now()))
                 tareasEnTiempo.add(tarea);
             return tareasEnTiempo;
     }
 
     public ArrayList<Tarea> tareasRetrasadas(){
-        Date fechaActual = new Date();
         ArrayList<Tarea> tareasRetrasadas = new ArrayList<>();
         for (Tarea tarea : tareas)
-            if (tarea.getFechaLimite().compareTo(fechaActual) < 0)
+            if (tarea.getFechaLimite().isBefore(LocalDate.now()))
                 tareasRetrasadas.add(tarea);
         return tareasRetrasadas;
     }

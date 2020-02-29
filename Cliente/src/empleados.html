@@ -1,0 +1,183 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="http://vps456458.ovh.net/dwes/resources/bootstrap-4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://vps456458.ovh.net/dwes/resources/jquery-3.3.1.min.js"></script>
+    <script src="http://vps456458.ovh.net/dwes/resources/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/8bb25dae46.js" crossorigin="anonymous"></script>
+    <style>
+        .col-auto{
+            background-color: rgb(63,68,74);
+        }
+        body{
+            background-color: rgb(63,68,74);
+        }
+    </style>
+</head>
+<body>
+<form>
+    <div class="form-row align-items-center">
+        <div class="col-auto">
+            <label class="sr-only" for="txtNombre">Name</label>
+            <input type="text" class="form-control mb-2" id="txtNombre" placeholder="Nombre empleado">
+        </div>
+        <div class="col-auto" id = "btnRead">
+            <button type="button" class="btn btn-primary mb-2" id="butEnviar" onclick="Read()"><i class="fas fa-search"></i> Search</button>
+        </div>
+        <div class="col-auto">
+            <button type="button" class="btn btn-primary mb-2" data-toggle="modal" data-target="#addModal"><i class="fas fa-user-plus"></i> Add</button>
+        </div>
+    </div>
+    <div id="divResult"></div>
+</form>
+
+<div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel"><i class="fas fa-user-plus"></i> Registrar</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+
+                    <div class="form-group"> <!-- Name -->
+                        <label for="name_id" class="control-label">Nombre</label>
+                        <input type="text" class="form-control" id="name_id" name="name" placeholder="John">
+                    </div>
+
+                    <div class="form-group"> <!-- Apellidos -->
+                        <label for="apellidos_id" class="control-label">Apellidos</label>
+                        <input type="text" class="form-control" id="apellidos_id" name="aepllidos" placeholder="Appleseed">
+                    </div>
+
+                    <div class="form-group"> <!-- Fecha Nacimiento-->
+                        <label for="date_id" class="control-label">Fecha Nacimiento</label>
+                        <input type="text" class="fecha" id="date_id" name="date" placeholder="YYYY-MM-DD" maxlength="10">
+                    </div>
+
+                    <div class="form-group"> <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary" id="butadd" onclick="Add()">Registrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="editModallLabel">Editar Empleado</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group"> <!-- Id -->
+                        <label for="name_id" class="control-label">Id</label>
+                        <input type="text" class="form-control" id="id_edit" name="name" placeholder="John" contenteditable="false">
+                    </div>
+
+                    <div class="form-group"> <!-- Name -->
+                        <label for="name_id" class="control-label">Nombre</label>
+                        <input type="text" class="form-control" id="name_edit" name="name" placeholder="John">
+                    </div>
+
+                    <div class="form-group"> <!-- Apellidos -->
+                        <label for="apellidos_id" class="control-label">Apellidos</label>
+                        <input type="text" class="form-control" id="apellidos_edit" name="aepllidos" placeholder="Appleseed">
+                    </div>
+
+                    <div class="form-group"> <!-- Fecha Nacimiento-->
+                        <label for="date_id" class="control-label">Fecha Nacimiento</label>
+                        <input type="text" class="fecha" id="date_edit" name="date" placeholder="YYYY-MM-DD" maxlength="10">
+                    </div>
+
+                    <div class="form-group"> <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary" id="butMod" onclick="Update()">Modify</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script>
+
+    function Read() {
+        var str = $("#txtNombre").val();
+        $("#butEnviar").attr("disabled", true);
+        $('#btnRead').html('<button class="btn btn-primary mb-2" type="button" disabled><i class="fa fa-circle-o-notch fa-spin"></i> Loading...</button>');
+        $.ajax({
+            type: "POST",
+            url: "empleados.jsp",
+            data: {"str": str, "accion": "read"}
+        }).done(function (response) {
+            var result = JSON.parse(response);
+            if (result.status == 'ok') {
+                $("#divResult").html(result.html);
+            } else {
+                $("#divResult").html(result.mensaje);
+            }
+            $('#btnRead').html('<button type="button" class="btn btn-primary mb-2" id="butEnviar" onclick="Read()"><i class="fas fa-search"></i> Search</button>');
+            $("#butEnviar").attr("disabled", false);
+        });
+    }
+
+    function Add() {
+        var name = $("#name_id").val();
+        var apellidos = $("#apellidos_id").val();
+        var date = $("#date_id").val();
+        $("#butadd").attr("disabled", true);
+        $.ajax({
+            type: "POST",
+            url: "empleados.jsp",
+            data: {"name": name,"apellidos": apellidos,"date": date, "accion": "add"}
+        });
+        $("#butadd").attr("disabled", false);
+        Read
+    }
+
+    function Remove(id_empleado) {
+        var id = id_empleado;
+        $.ajax({
+            type: "POST",
+            url: "empleados.jsp",
+            data: {"id": id_empleado, "accion": "delete"}
+        });
+        $('#' + id_empleado).remove();
+    }
+
+    function recogervalor(nitem) {
+        $('#id_edit').val($('#empleado_' + nitem +'_id').text());
+        $('#name_edit').val($('#empleado_' + nitem +'_nombre').text());
+        $('#apellidos_edit').val($('#empleado_' + nitem +'_apellidos').text());
+        $('#date_edit').val($('#empleado_' + nitem +'_nacimiento').text());
+        $("#id_edit").prop('disabled', true);
+    }
+
+    function Update() {
+        var name1 = $('#name_edit').val();
+        var apellidos1 = $('#apellidos_edit').val();
+        var date1 = $('#date_edit').val();
+        var id1 = $('#id_edit').val();
+
+        $.ajax({
+            type: "POST",
+            url: "empleados.jsp",
+            data: {"name": name1,"apellidos": apellidos1,"date": date1,"id":id1 , "accion": "update"}
+        });
+    }
+
+
+
+</script>
+</html>

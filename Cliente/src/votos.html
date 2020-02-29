@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="http://vps456458.ovh.net/dwes/resources/bootstrap-4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://vps456458.ovh.net/dwes/resources/jquery-3.3.1.min.js"></script>
+    <script src="http://vps456458.ovh.net/dwes/resources/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/8bb25dae46.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+    <form>
+        <div class="form-group">
+            <label for="txtNombre">Nombre</label>
+            <input type="email" class="form-control" id="txtNombre" aria-describedby="emailHelp" placeholder="Introduce nombre" >
+        </div>
+
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="rdo1" value="1">
+            <label class="form-check-label" for="rdo1">1</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="rdo2" value="2">
+            <label class="form-check-label" for="rdo2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="rdo3" value="3" >
+            <label class="form-check-label" for="rdo3">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="rdo4" value="4">
+            <label class="form-check-label" for="rdo4">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="rdo5" value="5">
+            <label class="form-check-label" for="rdo5">5</label>
+        </div>
+        <br>
+
+
+        <button type="button" class="btn btn-primary" onclick="votar()">Votar</button>
+    </form>
+</body>
+<script>
+    var nombres; //creo una variable para guardar los nombres
+    $(document).ready(function() {
+        $.ajax({
+            type: "POST",
+            url: "search.jsp",
+            data: {"accion": "auto"}
+        }).done(function (response) {
+            var result = JSON.parse(response);
+            if (result.status == 'ok') {
+                nombres = result.html; //guardo los nombres todos juntos como si fuesen una sola cadena de string
+                var nombres2 = nombres.split(","); //separo los nombres por la coma (,) y lo guardo en otra variable
+                $( "#txtNombre" ).autocomplete({
+                    source: nombres2 //y la variable con los nombres la uso como la fuente para el autocomplete
+                });
+            }
+        });
+    });
+
+    function votar() {
+        var nombre = $('#txtNombre').val;
+        var voto = $('')
+        alert($('input:radio[name=inlineRadioOptions]:checked').val());
+    }
+</script>
+</html>

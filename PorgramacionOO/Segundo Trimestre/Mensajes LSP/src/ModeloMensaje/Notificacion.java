@@ -1,3 +1,7 @@
+package ModeloMensaje;
+
+import ModeloPersona.Persona;
+
 public class Notificacion extends Mensaje {
     private boolean leido;
     private Persona persona;

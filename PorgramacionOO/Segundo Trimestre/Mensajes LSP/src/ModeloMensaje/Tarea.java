@@ -1,4 +1,7 @@
-public class Tarea extends Mensaje{
+package ModeloMensaje;
+import ModeloPersona.Persona;
+
+public class Tarea extends Mensaje {
     private boolean terminada;
     private Persona persona;
 

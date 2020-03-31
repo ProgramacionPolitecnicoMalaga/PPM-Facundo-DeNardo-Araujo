@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.politecnico.AppTest" time="0.048" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.politecnico.AppTest" time="0.07" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="/Applications/IntelliJ IDEA.app/Contents/jbr/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/facundodenardo/Documents/Web/CLASE/Programacion_S11AW/PPM-Facundo-DeNardo-Araujo/PorgramacionOO/Despliegue_Maven/target/surefire/surefirebooter8979509395329546045.jar /Users/facundodenardo/Documents/Web/CLASE/Programacion_S11AW/PPM-Facundo-DeNardo-Araujo/PorgramacionOO/Despliegue_Maven/target/surefire 2020-03-19T15-22-10_571-jvmRun1 surefire17858830176123460718tmp surefire_010130245079769316235tmp"/>
+    <property name="sun.java.command" value="/Users/facundodenardo/Documents/Web/CLASE/Programacion_S11AW/PPM-Facundo-DeNardo-Araujo/PorgramacionOO/Despliegue_Maven/target/surefire/surefirebooter9517626614598492684.jar /Users/facundodenardo/Documents/Web/CLASE/Programacion_S11AW/PPM-Facundo-DeNardo-Araujo/PorgramacionOO/Despliegue_Maven/target/surefire 2020-03-30T21-08-38_385-jvmRun1 surefire12464592329967899869tmp surefire_013734904401642925689tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/facundodenardo/Documents/Web/CLASE/Programacion_S11AW/PPM-Facundo-DeNardo-Araujo/PorgramacionOO/Despliegue_Maven/target/test-classes:/Users/facundodenardo/Documents/Web/CLASE/Programacion_S11AW/PPM-Facundo-DeNardo-Araujo/PorgramacionOO/Despliegue_Maven/target/classes:/Users/facundodenardo/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/facundodenardo/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/facundodenardo/.m2/repository/mysql/mysql-connector-java/8.0.19/mysql-connector-java-8.0.19.jar:/Users/facundodenardo/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar:"/>
@@ -34,13 +34,13 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/facundodenardo/Documents/Web/CLASE/Programacion_S11AW/PPM-Facundo-DeNardo-Araujo/PorgramacionOO/Despliegue_Maven/target/surefire/surefirebooter8979509395329546045.jar"/>
+    <property name="surefire.real.class.path" value="/Users/facundodenardo/Documents/Web/CLASE/Programacion_S11AW/PPM-Facundo-DeNardo-Araujo/PorgramacionOO/Despliegue_Maven/target/surefire/surefirebooter9517626614598492684.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.4+10-b304.77"/>
     <property name="user.name" value="facundodenardo"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="10.15.3"/>
+    <property name="os.version" value="10.15.4"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>

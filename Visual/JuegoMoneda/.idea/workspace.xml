@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14a1f172-0ed8-40ee-88ac-41cb4574d4fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../LinkedList/src/ElementoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../LinkedList/src/Pila.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../LinkedList/src/ProbandoLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PilotosVisual/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PilotosVisual/src/Pilotos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PilotosVisual/src/PilotosVisual.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PilotosVisual/src/PilotosVisual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/ProbandoXPath/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/ProbandoXPath/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/ProbandoXPath/out/production/ProbandoXPath/ProbandoXPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/ProbandoXPath/out/production/ProbandoXPath/ProbandoXPath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/ProbandoXPath/src/ProbandoXPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/ProbandoXPath/src/ProbandoXPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Segundo Trimestre/CustomRender/.idea/libraries/gson_2_8_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/Segundo Trimestre/CustomRender/.idea/libraries/gson_2_8_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Segundo Trimestre/CustomRender/out/production/CustomRender/META-INF/CustomRender.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Segundo Trimestre/CustomRender/out/production/CustomRender/com/politecnicomalaga/Vista/VentanaPrincipal$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/Segundo Trimestre/CustomRender/out/production/CustomRender/com/politecnicomalaga/Vista/VentanaPrincipal$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Segundo Trimestre/CustomRender/out/production/CustomRender/com/politecnicomalaga/Vista/VentanaPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/Segundo Trimestre/CustomRender/out/production/CustomRender/com/politecnicomalaga/Vista/VentanaPrincipal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Segundo Trimestre/CustomRender/src/com/politecnicomalaga/Vista/VentanaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/Segundo Trimestre/CustomRender/src/com/politecnicomalaga/Vista/VentanaPrincipal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PilotosVisual/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,6 +120,7 @@
       <workItem from="1573574817826" duration="609000" />
       <workItem from="1573581019418" duration="2598000" />
       <workItem from="1573662601959" duration="211000" />
+      <workItem from="1585930534984" duration="632000" />
     </task>
     <servers />
   </component>

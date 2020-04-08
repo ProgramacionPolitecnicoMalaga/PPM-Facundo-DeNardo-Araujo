@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ActFinalCredenciales" />
-        <module name="Act-Final-Credenciales" />
+        <module name="resta" />
+        <module name="suma" />
+        <module name="calculadora" />
+        <module name="division" />
+        <module name="multiplicacion" />
       </profile>
     </annotationProcessing>
   </component>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="22ecf74c-ac4b-4ccf-842a-57327cbae6df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Cliente/.idea/sshConfigs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cliente/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConversionMedidasJunit/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConversionMedidasJunit/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConversionMedidasJunit/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConversionMedidasJunit/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConversionMedidasJunit/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConversionMedidasJunit/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConversionMedidasJunit/ConversionMedidasJunit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConversionMedidasJunit/src/main/java/com/politecnico/ConversionMedidas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConversionMedidasJunit/src/test/java/com/politecnico/ConversionMedidasTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HolaMundoJSP/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HolaMundoJSP/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HolaMundoJSP/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HolaMundoJSP/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HolaMundoJSP/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HolaMundoJSP/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HolaMundoJSP/.idea/sshConfigs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HolaMundoJSP/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HolaMundoJSP/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HolaMundoJSP/HolaMundoJSP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HolaMundoJSP/src/main/Java/com/politecnico/Saludo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PacksBuilder.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Modelo/Servicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ServicioBuilder/ServicioBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ServicioBuilder/ServicioDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ServicioBuilder/TiposServicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PodaExtremosJUnit/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PodaExtremosJUnit/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PodaExtremosJUnit/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PodaExtremosJUnit/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PodaExtremosJUnit/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PodaExtremosJUnit/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PodaExtremosJUnit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PodaExtremosJUnit/src/main/java/com/politecnico/PodaExtremos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PodaExtremosJUnit/src/test/java/com/politecnico/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PodaExtremosJUnit/src/test/java/com/politecnico/PodaExtremosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UsandoPorperties/UsandoPorperties.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UsandoPorperties/src/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UsandoPorperties/src/Propiedades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cliente/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Cliente/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PorgramacionOO/Segundo Trimestre/JuegoAbstractFactory/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PorgramacionOO/Segundo Trimestre/JuegoAbstractFactory/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PorgramacionOO/Segundo Trimestre/JuegoAbstractFactory/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PorgramacionOO/Segundo Trimestre/JuegoAbstractFactory/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/usr/local/Cellar/maven/3.6.3_1/libexec" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aqOlBCo3ISWY1elniwltgCjqz8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+      <module name="PacksBuilder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22ecf74c-ac4b-4ccf-842a-57327cbae6df" name="Default Changelist" comment="" />
+      <created>1587459805401</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587459805401</updated>
+      <workItem from="1587459807370" duration="4576000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1073" y="218" key="#com.intellij.ide.util.MemberChooser" timestamp="1587464482879">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="1073" y="218" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1587464482879" />
+    <state width="1638" height="274" key="GridCell.Tab.0.bottom" timestamp="1587464526233">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="274" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1587464526233" />
+    <state width="1638" height="274" key="GridCell.Tab.0.center" timestamp="1587464526232">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="274" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1587464526232" />
+    <state width="1638" height="274" key="GridCell.Tab.0.left" timestamp="1587464526230">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="274" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1587464526230" />
+    <state width="1638" height="274" key="GridCell.Tab.0.right" timestamp="1587464526232">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="274" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1587464526232" />
+  </component>
+</project>

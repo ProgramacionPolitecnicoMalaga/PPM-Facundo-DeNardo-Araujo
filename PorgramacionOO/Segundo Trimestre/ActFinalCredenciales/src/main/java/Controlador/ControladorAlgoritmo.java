@@ -13,9 +13,8 @@ public class ControladorAlgoritmo {
     public boolean comprobarPassword(String algoritmoDeseado, String password, String passHash, String salt) throws NoSuchAlgorithmException {
         boolean verificacion = true;
         if (algoritmoDeseado.equals(BCRYPT))
-            verificacion = new Bcrypt().verificarBcrypt(password,passHash); //generarAlgoritmo(algoritmoDeseado).verificarBcrypt(password,passHash);
+            verificacion = new Bcrypt().verificarBcrypt(password,passHash);
         if (!algoritmoDeseado.equals(BCRYPT)){
-            System.out.println("entra bien a comprobar en SHA");
             verificacion = new Sha3512().verificarSHA(password, salt, passHash);
         }
         return verificacion;

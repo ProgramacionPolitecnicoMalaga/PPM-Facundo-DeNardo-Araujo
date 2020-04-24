@@ -6,7 +6,7 @@ import java.security.NoSuchAlgorithmException;
 import java.sql.SQLException;
 
 public class Prueba {
-    public static void main(String[] args) throws NoSuchAlgorithmException, SQLException {
+    public static void main(String[] args) throws SQLException {
         JFrame frame = new JFrame("Credenciales"); // Marco de la aplicación.
         frame.setContentPane(new PanelPrincipal().getPanel()); // Alturas: nombre del Form enmarcado y de su clase correspondiente.
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

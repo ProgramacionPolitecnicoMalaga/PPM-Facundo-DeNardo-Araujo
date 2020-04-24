@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="SshConfigs">
-    <configs>
-      <sshConfig authType="PASSWORD" host="51.77.146.122" id="bc6370f8-2b22-499c-883f-569bc9c0de7d" port="22" customName="OVH" nameFormat="CUSTOM" username="root" />
-    </configs>
-  </component>
-</project>

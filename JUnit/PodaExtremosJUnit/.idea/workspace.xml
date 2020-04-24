@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f83240a5-97a8-499b-9dc2-30253d075825" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../TareasSingleton/HolaMundo/src/main/Java/com/politecnico/Saludo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TareasSingleton/PilotosJUnit/src/main/java/com/politecnico/Carrera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TareasSingleton/PilotosJUnit/src/main/java/com/politecnico/Participante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TareasSingleton/PilotosJUnit/src/test/java/com/politecnico/CarreraTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundoJSP/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundoJSP/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundoJSP/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundoJSP/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundoJSP/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundoJSP/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundoJSP/.idea/sshConfigs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundoJSP/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundoJSP/.idea/webServers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundoJSP/HolaMundoJSP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundoJSP/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundoJSP/src/main/Java/com/politecnico/Saludo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundoJSP/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundoJSP/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundoJSP/target/HolaMundoJSP.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundoJSP/target/HolaMundoJSP/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundoJSP/target/HolaMundoJSP/WEB-INF/classes/com/politecnico/Saludo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundoJSP/target/HolaMundoJSP/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundoJSP/target/HolaMundoJSP/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundoJSP/target/classes/com/politecnico/Saludo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundoJSP/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundoJSP/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HolaMundoJSP/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Visual/PilotosVisual/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Visual/PilotosVisual/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Visual/PilotosVisual/out/production/PilotosVisual/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Visual/PilotosVisual/out/production/PilotosVisual/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Visual/PilotosVisual/out/production/PilotosVisual/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Visual/PilotosVisual/out/production/PilotosVisual/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/usr/local/Cellar/maven/3.6.3_1/libexec" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aiqNkz1WhkosnEXnTvlygfRWCm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.politecnico" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PodaExtremosTest.podarMasLejano">
+    <configuration name="PodaExtremosTest.podarMasLejano" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PodaExtremosJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.politecnico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.politecnico" />
+      <option name="MAIN_CLASS_NAME" value="com.politecnico.PodaExtremosTest" />
+      <option name="METHOD_NAME" value="podarMasLejano" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PodaExtremosTest.podarMasProximo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PodaExtremosJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.politecnico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.politecnico" />
+      <option name="MAIN_CLASS_NAME" value="com.politecnico.PodaExtremosTest" />
+      <option name="METHOD_NAME" value="podarMasProximo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PodaExtremosTest.podarMasLejano" />
+        <item itemvalue="JUnit.PodaExtremosTest.podarMasProximo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f83240a5-97a8-499b-9dc2-30253d075825" name="Default Changelist" comment="" />
+      <created>1587228723420</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587228723420</updated>
+      <workItem from="1587228724798" duration="3205000" />
+      <workItem from="1587582559602" duration="572000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="798" height="274" key="GridCell.Tab.0.bottom" timestamp="1587232046474">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="798" height="274" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1587232046474" />
+    <state width="798" height="274" key="GridCell.Tab.0.center" timestamp="1587232046474">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="798" height="274" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1587232046474" />
+    <state width="798" height="274" key="GridCell.Tab.0.left" timestamp="1587232046473">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="798" height="274" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1587232046473" />
+    <state width="798" height="274" key="GridCell.Tab.0.right" timestamp="1587232046474">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="798" height="274" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1587232046474" />
+    <state x="619" y="308" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587230176899">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="619" y="308" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1587230176899" />
+  </component>
+</project>

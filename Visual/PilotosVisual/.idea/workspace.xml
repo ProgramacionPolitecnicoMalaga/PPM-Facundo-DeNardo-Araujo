@@ -2,12 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f33f84c8-649c-4cf4-a949-7469ee34c6cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Actividades Repaso/Actividad 2 Repaso Refactorizada/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/Actividades Repaso/Actividad 2 Repaso Refactorizada/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Actividades Repaso/Actividad 3 Repaso/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/Actividades Repaso/Actividad 3 Repaso/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Actividades Repaso/Actividad 3 Repaso/src/Comisionado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/Actividades Repaso/Actividad 3 Repaso/src/Comisionado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PorgramacionOO/Actividades Repaso/Actividad 3 Repaso/src/MiMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PorgramacionOO/Actividades Repaso/Actividad 3 Repaso/src/MiMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TareasSingleton/HolaMundo/src/main/Java/com/politecnico/Saludo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TareasSingleton/PilotosJUnit/src/main/java/com/politecnico/Carrera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../TareasSingleton/PilotosJUnit/src/main/java/com/politecnico/Participante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HolaMundoJSP/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HolaMundoJSP/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HolaMundoJSP/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HolaMundoJSP/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HolaMundoJSP/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HolaMundoJSP/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HolaMundoJSP/.idea/sshConfigs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HolaMundoJSP/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HolaMundoJSP/.idea/webServers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HolaMundoJSP/HolaMundoJSP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HolaMundoJSP/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HolaMundoJSP/src/main/Java/com/politecnico/Saludo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HolaMundoJSP/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HolaMundoJSP/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HolaMundoJSP/target/HolaMundoJSP.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HolaMundoJSP/target/HolaMundoJSP/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HolaMundoJSP/target/HolaMundoJSP/WEB-INF/classes/com/politecnico/Saludo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HolaMundoJSP/target/HolaMundoJSP/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HolaMundoJSP/target/HolaMundoJSP/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HolaMundoJSP/target/classes/com/politecnico/Saludo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HolaMundoJSP/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HolaMundoJSP/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HolaMundoJSP/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,16 +44,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="$PROJECT_DIR$/.idea" />
-      </set>
-    </option>
-  </component>
   <component name="ProjectId" id="1TZKhgIf5aZanqYLvcplcVPVVeO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -44,18 +62,6 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="PilotosVisual" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -91,23 +97,46 @@
       <workItem from="1574357246533" duration="948000" />
       <workItem from="1574593596216" duration="623000" />
       <workItem from="1579020421105" duration="90000" />
+      <workItem from="1587567933949" duration="757000" />
+      <workItem from="1587570322952" duration="8000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1638" height="261" key="GridCell.Tab.0.bottom" timestamp="1587569679003">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="261" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1587569679003" />
+    <state width="1638" height="261" key="GridCell.Tab.0.center" timestamp="1587569679003">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="261" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1587569679003" />
+    <state width="1638" height="261" key="GridCell.Tab.0.left" timestamp="1587569679002">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="261" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1587569679002" />
+    <state width="1638" height="261" key="GridCell.Tab.0.right" timestamp="1587569679003">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="261" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1587569679003" />
+    <state x="261" y="112" key="new project wizard" timestamp="1587568128868">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="261" y="112" key="new project wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1587568128868" />
   </component>
 </project>

@@ -39,4 +39,15 @@ public class CredencialDAO {
         }
         return cred;
     }
+
+    public Credencial buscarCredencialByNombre(String usuario) throws SQLException {
+        Credencial cred = null;
+        ResultSet rs = dbConn.prepareStatement("SELECT * FROM Credenciales WHERE nombre LIKE '" + usuario + "'").executeQuery();
+        while (rs.next()){
+            cred = new Credencial(rs.getString("id"), rs.getString("nombre"), rs.getString("hash"), rs.getString("algoritmo"), rs.getString("salt"));
+        }
+        return cred;
+    }
+
+
 }

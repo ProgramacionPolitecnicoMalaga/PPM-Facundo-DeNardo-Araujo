@@ -2,12 +2,14 @@ import com.politecnico.Vista.PanelPrincipal;
 
 import javax.swing.*;
 import java.awt.*;
+import java.io.IOException;
 import java.sql.SQLException;
 
 public class App {
-    public static void main(String[] args) throws SQLException {
-        JFrame frame = new JFrame("Mensajes"); // Marco de la aplicación.
-        frame.setContentPane(new PanelPrincipal().getPanel()); // Alturas: nombre del Form enmarcado y de su clase correspondiente.
+    public static void main(String[] args) throws SQLException, IOException {
+        //HE USADO PROPERTIES PARA RECORDAR EL USUARIO Y CONTRASEÑA
+        JFrame frame = new JFrame("Mensajes");
+        frame.setContentPane(new PanelPrincipal().getPanel());
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Toolkit toolkit = Toolkit.getDefaultToolkit();
         int height = toolkit.getScreenSize().height - 300;

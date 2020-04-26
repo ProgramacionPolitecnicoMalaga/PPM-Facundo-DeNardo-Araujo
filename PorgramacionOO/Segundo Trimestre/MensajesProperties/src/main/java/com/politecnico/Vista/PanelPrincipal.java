@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.IOException;
 import java.sql.SQLException;
 
 public class PanelPrincipal {
@@ -16,29 +17,31 @@ public class PanelPrincipal {
     private JMenuItem logOut;
     PanelLectura panelLectura = new PanelLectura();
     PanelEscritura panelEscritura = new PanelEscritura();
-    PanelLogin panelLogin = new PanelLogin();
+
+    PanelPrincipal estaVentana;
+
 
     public JPanel getPanel(){
         return panel1;
     }
 
-    public JPanel getPnlPrincipal(){
-        return pnlPrincipal;
-    }
-
-    public PanelPrincipal() throws SQLException {
-
+    public PanelPrincipal() throws SQLException, IOException {
+        estaVentana = this;
+        PanelLogin panelLogin = new PanelLogin(estaVentana);
         pnlPrincipal.add(panelLectura.getPanel(),"Lectura");
         pnlPrincipal.add(panelEscritura.getPanel(),"Escritura");
         pnlPrincipal.add(panelLogin.getPnlLogIn(),"LogIn");
-
-        mostrarLectura();
+        mostrarLogOut();
 
 
         menLeer.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                mostrarLectura();
+                try {
+                    mostrarLectura();
+                } catch (SQLException throwables) {
+                    throwables.printStackTrace();
+                }
             }
         });
 
@@ -65,9 +68,10 @@ public class PanelPrincipal {
         menEscribir.setEnabled(false);
         menLeer.setEnabled(true);
     }
-    public void mostrarLectura(){
+    public void mostrarLectura() throws SQLException {
         CardLayout cardLayout = (CardLayout) pnlPrincipal.getLayout();
         cardLayout.show(pnlPrincipal, "Lectura");
+        panelLectura.mostrarMensajes();
         menLeer.setEnabled(false);
         menEscribir.setEnabled(true);
     }

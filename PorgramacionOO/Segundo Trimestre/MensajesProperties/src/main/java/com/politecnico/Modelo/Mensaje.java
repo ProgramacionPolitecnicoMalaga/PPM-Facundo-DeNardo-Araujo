@@ -1,31 +1,31 @@
 package com.politecnico.Modelo;
 
 public class Mensaje {
-    private int emisor;
-    private int receptor;
+    private String emisor;
+    private String receptor;
     private String titulo;
     private String contenido;
 
-    public Mensaje(int emisor, int receptor, String titulo,String contenido){
+    public Mensaje(String emisor, String receptor, String titulo, String contenido){
         this.emisor =emisor;
         this.receptor = receptor;
         this.titulo = titulo;
         this.contenido = contenido;
     }
 
-    public int getEmisor() {
+    public String getEmisor() {
         return emisor;
     }
 
-    public void setEmisor(int emisor) {
+    public void setEmisor(String emisor) {
         this.emisor = emisor;
     }
 
-    public int getReceptor() {
+    public String getReceptor() {
         return receptor;
     }
 
-    public void setReceptor(int receptor) {
+    public void setReceptor(String receptor) {
         this.receptor = receptor;
     }
 
@@ -43,5 +43,10 @@ public class Mensaje {
 
     public void setContenido(String contenido) {
         this.contenido = contenido;
+    }
+
+    @Override
+    public String toString() {
+        return "Mensaje: " + titulo + "\n" + "De: " + emisor;
     }
 }

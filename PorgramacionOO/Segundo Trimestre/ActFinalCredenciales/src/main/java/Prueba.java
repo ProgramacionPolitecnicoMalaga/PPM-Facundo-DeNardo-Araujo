@@ -2,7 +2,6 @@ import Interfaz.PanelPrincipal;
 
 import javax.swing.*;
 import java.awt.*;
-import java.security.NoSuchAlgorithmException;
 import java.sql.SQLException;
 
 public class Prueba {

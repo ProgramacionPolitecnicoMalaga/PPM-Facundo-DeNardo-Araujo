@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="fb797635-dddd-4cfe-85c2-c3744dbea5f6" name="OVH" url="http://51.77.146.122">
+        <fileTransfer accessType="SFTP" host="51.77.146.122" port="22" sshConfigId="347fa340-0e0b-43c5-aec2-36c29081b45c" sshConfig="root@51.77.146.122:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
